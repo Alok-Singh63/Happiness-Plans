@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wanderlust Tours</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        Happiness-Plans
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="packeges.html">Packages</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- <section class="hero">
+    <div class="hero-text">
+      <h1>Explore the World with Us</h1>
+      <p>Find your next adventure and create unforgettable memories.</p>
+      <a href="#" class="btn">Explore Packages</a>
+    </div>
+  </section> -->
+
+
+
+  <!-- adding slider  -->
+
+
+
+<div class="carousel">
+    <div class="slides" id="slides">
+      <div class="slide"><img src="https://images.safarcabby.com/car-rentals/happiness-plans-indore-madhya-pradesh-10614-5735.png" alt="Slide 1"></div>
+      <div class="slide"><img src="https://www.wishesmsg.com/wp-content/uploads/Enjoy-Your-Vacation.jpg" alt="Slide 2"></div>
+      <div class="slide"><img src="https://www.eurokidsindia.com/blog/wp-content/uploads/2023/09/best-places-in-indore-870x458.jpg" alt="Slide 3"></div>
+    </div>
+
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+  </div>
+
+  <div class="dots">
+    <span class="dot" onclick="goToSlide(0)"></span>
+    <span class="dot" onclick="goToSlide(1)"></span>
+    <span class="dot" onclick="goToSlide(2)"></span>
+  </div>
+
+
+  <!-- features Section -->
+  
+
+
+
+  <section class="feature-section">
+    <h2 id="feature-section">Our Feature's</h2>
+    <div class="feature-container">
+      <div class="feature-card">
+        <img src="img0.JPG" alt="Feature 1">
+      </div>
+
+      <div class="feature-card">
+        <img src="img2.JPG" alt="Feature 2">
+      </div>
+
+
+
+
+      <div class="feature-card">
+        <img src="img3.JPG" alt="Feature 3">
+      </div>
+
+      <div class="feature-card">
+        <img src="img0.JPG" alt="Feature 4">
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+<!-- review section -->
+
+
+<section class="review-section">
+    <h2>What Our Travelers Say</h2>
+    <div class="review-container">
+
+      <div class="review-card">
+        <img src="https://play-lh.googleusercontent.com/Ftwup2rmVy1zN7OLobmG6Ypb_D30JseVvoncslvEyS8E3NNVkWtGqaxWcdRo-V7e2g" alt="User 1">
+        <h3>Priya Sharma</h3>
+        <p class="stars">★★★★★</p>
+        <p>"One of the best travel experiences I’ve had! Everything was well organized and stress-free."</p>
+      </div>
+
+      <div class="review-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUA-Hic3JvKVMP4SbG1VtBVZjKN3-QpoN-pw&s" alt="User 2">
+        <h3>Arjun Mehta</h3>
+        <p class="stars">★★★★☆</p>
+        <p>"Beautiful locations and amazing guides. Will definitely book again next season!"</p>
+      </div>
+
+      <div class="review-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FS8yd3q247uZ53pIVihAnOLZ01y-aZPn6Q&s" alt="User 3">
+        <h3>Sneha Patel</h3>
+        <p class="stars">★★★★★</p>
+        <p>"Excellent service and friendly staff. The trip was smooth from start to end."</p>
+      </div>
+
+      
+    </div>
+  </section>
+
+
+
+
+<!-- about us and team members -->
+
+
+
+<main class="about-main">
+    <section class="about-section">
+      <div class="about-container">
+        <h2 class="about-title">About Us</h2>
+        <div class="para-img-container">
+          <p class="about-description">
+         Happiness Plans in Indore appears to be a travel and event management company with
+          a focus on creating memorable experiences.
+           The company has a small team, with a management team including an<b> Event Manager (Rahul Gupta) </b> and an <b> HR Intern (Vaishnavi Upadhyay) </b>. They are looking for passionate individuals to join their team, offering opportunities in travel, events, and event management. 
+
+        </p>
+        <div class="image">
+          <img src="Team member.JPG" alt="">
+        </div>
+        </div>
+
+        <div class="about-team">
+          <div class="about-team-member">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGYOLavOgRJIQ/profile-displayphoto-shrink_400_400/B4DZVc39DMHIAo-/0/1741019931149?e=1756339200&v=beta&t=Ks-xkeeeQ8SbNhBtH0mC-K9-VooOSivab5OqHJfi614" alt="Founder">
+
+            <h3 class="member-name">Harshit Tated</h3>
+            <p class="member-role">Founder & Managing Director</p>
+          </div>
+          <div class="about-team-member">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_ZU-P6TTvQJavhBr-YOALgRgNYpJrRKWoA&s" alt="Event manager">
+            <h3 class="member-name">Rahul Gupta</h3>
+            <p class="member-role">Event Manager</p>
+          </div>
+          <div class="about-team-member">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe6yBL-ZKTWMeCUdx_jZ_4lAQc5fB0inObPaiB2kwTopIdUFo&s" alt="HR">
+
+            <h3 class="member-name">Vaishnavi Upadhyay </h3>
+            <p class="member-role">HR Intern</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Wanderlust Tours. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

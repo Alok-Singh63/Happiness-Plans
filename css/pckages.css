@@ -1,0 +1,92 @@
+/* === Packages Page === */
+.packages-section {
+  background: #f8f8f8;
+  padding: 50px 20px;
+}
+
+.packages-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.packages-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #00334e;
+}
+
+.packages-intro {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.package-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+}
+
+.package-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.package-info {
+  padding: 20px;
+}
+
+.package-info h3 {
+  margin-bottom: 10px;
+  color: #00334e;
+  font-size: 1.3em;
+}
+
+.package-price {
+  font-weight: bold;
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+
+.package-info p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.package-info .btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #00334e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.package-info .btn:hover {
+  background: #005377;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .package-card img {
+    height: 180px;
+  }
+}
